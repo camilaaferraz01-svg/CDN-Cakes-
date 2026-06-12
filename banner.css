@@ -88,6 +88,34 @@ body{
 	            30%, rgba(229, 185, 237, 1) 30%);
 }
 
+.etiqueta1_bloco1, .etiqueta2_bloco1{
+	width:45px;
+	height:45px;
+	background:white;
+	border-radius:100%;
+	border: 3px solid red;
+	position: absolute;
+}
+
+.etiqueta1_bloco1{
+	top: 10px;
+	left:8px;
+}
+
+.etiqueta2_bloco1{
+	top: 10px;
+	left:78%;
+}
+
+.etiqueta1_bloco1::before, .etiqueta1_bloco1::after,
+.etiqueta1_bloco2::before, .etiqueta2_bloco1::after{
+	content:"";
+	position:absolute;
+	
+	width:50px; /*Largura do x*/
+	height:2px; /*Espessura do x*/
+}
+	
 .bloco1{
     width:350px;
 }
