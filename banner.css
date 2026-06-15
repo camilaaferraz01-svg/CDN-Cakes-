@@ -88,32 +88,49 @@ body{
 	            30%, rgba(229, 185, 237, 1) 30%);
 }
 
-.etiqueta1_bloco1, .etiqueta2_bloco1{
+.etiqueta1_Bloco1, .etiqueta2_Bloco1{
 	width:45px;
 	height:45px;
 	background:white;
 	border-radius:100%;
 	border: 3px solid red;
-	position: absolute;
+	position: absolute;		
 }
-
-.etiqueta1_bloco1{
+.etiqueta1_Bloco1{
 	top: 10px;
-	left:8px;
+	left:85px;	
 }
-
-.etiqueta2_bloco1{
+.etiqueta2_Bloco1{
 	top: 10px;
-	left:78%;
+	left:78%;	
 }
 
-.etiqueta1_bloco1::before, .etiqueta1_bloco1::after,
-.etiqueta1_bloco2::before, .etiqueta2_bloco1::after{
+.etiqueta1_Bloco1::before, .etiqueta1_Bloco1::after,
+.etiqueta2_Bloco1::before, .etiqueta2_Bloco1::after{
 	content:"";
 	position:absolute;
-	
-	width:50px; /*Largura do x*/
-	height:2px; /*Espessura do x*/
+
+	width:50px; /* Largura do X*/
+	height:2px; /* Espessura do X*/
+
+	background:black;
+
+	top:50%;
+	left:50%;
+}
+
+.etiqueta1_Bloco1::before,
+.etiqueta2_Bloco1::before{
+	transform:
+		translate(-50%, -50%)
+		rotate(30deg);
+}
+
+.etiqueta1_Bloco1::after,
+.etiqueta2_Bloco1::after{
+	transform:
+		translate(-50%, -50%)
+		rotate(-35deg);
 }
 	
 .bloco1{
