@@ -2,6 +2,7 @@ body{
     background-color: #D8BFD8;
 }
 
+/* container1 e ACEITAMOSENCOMENDAS*/
 .container1{
     width: 100%;
     height: 50%;
@@ -37,6 +38,7 @@ body{
    left:60px;
 }	
 
+/* Balão 1, CDN-Cakes e CakesDeliciososeNaturais*/
 .c1{
    width: 430px;
    height: 150px;
@@ -84,6 +86,7 @@ body{
    left:230px;
 }	
 
+/* bola e FEIRÃO*/
 .bola{
     width: 245px;
     height:240px;
@@ -118,6 +121,8 @@ body{
    left:795px;
 }	
 
+/*balão 2 e Quebrapreço*/
+
 .c2{
    width: 430px;
    height: 100px;
@@ -150,6 +155,9 @@ body{
    left:840px;
 }	
 
+/* container2, blocos 1 ao 4, etiqueta1, preços 1,3,5,7;
+etiqueta2, preços 2,4,6,8;*/
+
 .container2{
     display:flex;
     gap:10px;
@@ -180,22 +188,146 @@ body{
 	border: 3px solid red;
 	position: absolute;		
 }
+	
 .etiqueta1_Bloco1{
 	top: 10px;
 	left:85px;	
+	z-index: 1;
 }
+
+#preço{
+    font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:1px;
+}	
+
+#preço3{
+    font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:1px;
+}	
+
+#preço5{
+    font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:3px;
+}	
+
+#preço7{
+    font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:1px;
+}	
+
 .etiqueta2_Bloco1{
 	top: 10px;
-	left:78%;	
+	left:78%;
+    z-index: 1;	
 }
+
+#preço2{
+    font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:3px;
+}	
+
+#preço4{
+    font-family: Impact;
+	font-size:19px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:1px;
+}	
+
+#preço6{
+    font-family: Impact;
+	font-size:19px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:4px;
+}	
+
+#preço8{
+    font-family: Impact;
+	font-size:19px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:2px;
+}	
 
 .etiqueta1_Bloco1::before, .etiqueta1_Bloco1::after,
 .etiqueta2_Bloco1::before, .etiqueta2_Bloco1::after{
 	content:"";
 	position:absolute;
-
-	width:50px; /* Largura do X*/
-	height:2px; /* Espessura do X*/
+	width:45px;
+	height:2px;
+	z-index: 1;
 
 	background:black;
 
@@ -205,33 +337,341 @@ body{
 
 .etiqueta1_Bloco1::before,
 .etiqueta2_Bloco1::before{
-	transform:
-		translate(-50%, -50%)
-		rotate(30deg);
+	transform:translate(-50%, -50%) rotate(30deg);
 }
 
 .etiqueta1_Bloco1::after,
 .etiqueta2_Bloco1::after{
-	transform:
-		translate(-50%, -50%)
-		rotate(-35deg);
+	transform:translate(-50%, -50%)rotate(-35deg);
 }
 	
 .bloco1{
     width:350px;
 }
 
+#bloco1preço{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:185px;
+   left:100px;
+}	
+
+#porapenas{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:225px;
+   left:35px;
+}	
+
+#preço9{
+	font-family: Impact;
+	font-size:70px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:178px;
+   left:175px;
+}	
+
+#preço10{
+	font-family: Impact;
+	font-size:30px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:185px;
+   left:260px;
+}	
+
+#cada{
+	font-family: Impact;
+	font-size:15px;
+    color: white;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:220px;
+   left:275px;
+}	
+	
+
 .bloco2{ 
     width:350px;
 }
+
+#bloco2preço{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:185px;
+   left:100px;
+}	
+
+#porapenas2{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:225px;
+   left:35px;
+}	
+
+#preço11{
+	font-family: Impact;
+	font-size:70px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:178px;
+   left:185px;
+}	
+
+#preço12{
+	font-family: Impact;
+	font-size:30px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:185px;
+   left:260px;
+}	
+
+#cada2{
+	font-family: Impact;
+	font-size:15px;
+    color: white;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:220px;
+   left:275px;
+}	
 
 .bloco3{
     width:350px;
 }
 
+#bloco3preço{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:185px;
+   left:100px;
+}	
+
+#porapenas3{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:225px;
+   left:35px;
+}	
+
+#preço13{
+	font-family: Impact;
+	font-size:70px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:178px;
+   left:175px;
+}	
+
+#preço14{
+	font-family: Impact;
+	font-size:30px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:185px;
+   left:260px;
+}	
+
+#cada3{
+	font-family: Impact;
+	font-size:15px;
+    color: white;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:220px;
+   left:275px;
+}	
+
+
 .bloco4{
     width:350px;
 }
+
+#bloco4preço{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:185px;
+   left:100px;
+}	
+
+#porapenas4{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:225px;
+   left:35px;
+}	
+
+#preço15{
+	font-family: Impact;
+	font-size:70px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:178px;
+   left:175px;
+}	
+
+#preço16{
+	font-family: Impact;
+	font-size:30px;
+    color: #FFD700;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:185px;
+   left:260px;
+}	
+
+#cada4{
+	font-family: Impact;
+	font-size:15px;
+    color: white;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:220px;
+   left:275px;
+}	
+
+/* fotos */
 
 .bolo1{
     width:120px;
@@ -320,6 +760,8 @@ body{
    left:180px;
 }
 
+/*container3, bloco5, etiquetas 1 ao 15, faixais 1 ao 4*/
+
 .container3{
     width:100%;
     height:100%;
@@ -347,73 +789,85 @@ body{
     left:0;
 }
 
-.etiqueta1_Bloco2, .etiqueta2_Bloco2, 
-.etiqueta3_Bloco2, .etiqueta4_Bloco2, .etiqueta5_Bloco2{
-	width:45px;
-	height:45px;
-	background:white;
-	border-radius:100%;
-	border: 3px solid red;
-	position: absolute;		
-}
-.etiqueta1_Bloco2{
-	top: 5px;
-	left:185px;	
-}
-.etiqueta2_Bloco2{
-	top: 5px;
-	left:415px;	
+.Bloco5{
+    width:45px;
+    height:45px;
+    background:white;
+    border:3px solid red;
+    border-radius:50%;
+    position:absolute;
+
 }
 
-.etiqueta3_Bloco2{
-	top: 5px;
-	left:675px;	
-}
-.etiqueta4_Bloco2{
-	top: 5px;
-	left:915px;	
+#preço17{
+	font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:2px;
+}	
+
+#preço18{
+    font-family: Impact;
+	font-size:18px;
+    color: #FF8C00;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px #444444;
+	
+   position:absolute;
+
+   top:10px;
+   left:3px;
+}	
+
+.Bloco5::before,
+.Bloco5::after{
+    content:"";
+    position:absolute;
+    width:45px;
+    height:2px;
+    background:black;
+    top:50%;
+    left:50%;
+	z-index: 1;
+	
 }
 
-.etiqueta5_Bloco2{
-	top: 5px;
-	left:1190px;	
-}
-.etiqueta1_Bloco2::before, .etiqueta1_Bloco2::after,
-.etiqueta2_Bloco2::before, .etiqueta2_Bloco2::after,
-.etiqueta3_Bloco2::before, .etiqueta3_Bloco2::after,
-.etiqueta4_Bloco2::before, .etiqueta4_Bloco2::after,
-.etiqueta5_Bloco2::before, .etiqueta5_Bloco2::after{
-	content:"";
-	position:absolute;
-
-	width:50px; /* Largura do X*/
-	height:2px; /* Espessura do X*/
-
-	background:black;
-
-	top:50%;
-	left:50%;
+.Bloco5::before{
+    transform:translate(-50%,-50%) rotate(30deg);
 }
 
-.etiqueta1_Bloco2::before,
-.etiqueta2_Bloco2::before,
-.etiqueta3_Bloco2::before,
-.etiqueta4_Bloco2::before,
-.etiqueta5_Bloco2::before{
-	transform:
-		translate(-50%, -50%)
-		rotate(30deg);
+.Bloco5::after{
+    transform:translate(-50%,-50%) rotate(-35deg);
 }
 
-.etiqueta1_Bloco2::after,
-.etiqueta2_Bloco2::after,
-.etiqueta3_Bloco2::after,
-.etiqueta4_Bloco2::after,
-.etiqueta5_Bloco2::after{
-	transform:
-		translate(-50%, -50%)
-		rotate(-35deg);
-}
+.etiqueta1_Bloco5{top:5px; left:185px;}
+.etiqueta2_Bloco5{top:5px; left:415px;}
+.etiqueta3_Bloco5{top:5px; left:675px;}
+.etiqueta4_Bloco5{top:5px; left:915px;}
+.etiqueta5_Bloco5{top:5px; left:1190px;}
+
+.etiqueta6_Bloco5{top:150px; left:185px;}
+.etiqueta7_Bloco5{top:150px; left:415px;}
+.etiqueta8_Bloco5{top:150px; left:675px;}
+.etiqueta9_Bloco5{top:150px; left:915px;}
+.etiqueta10_Bloco5{top:150px; left:1190px;}
+
+.etiqueta11_Bloco5{top:300px; left:185px;}
+.etiqueta12_Bloco5{top:300px; left:415px;}
+.etiqueta13_Bloco5{top:300px; left:675px;}
+.etiqueta14_Bloco5{top:300px; left:915px;}
+.etiqueta15_Bloco5{top:300px; left:1190px;}
+
 
 .faixa1,.faixa2,.faixa3,.faixa4{
 	width:100%;
@@ -424,6 +878,7 @@ body{
 .faixa1{
 	background:#CAADFF;
 }
+
 .faixa2{
 	background-color:#FFADC7;
 }
@@ -432,11 +887,281 @@ body{
 }
 
 .faixa4{
-	background-color:#CAADFF;
-    height:150px;
+	background: linear-gradient(
+        to right,
+        #CAADFF 0%,   #CAADFF 25%,
+        #FFADC7 25%,  #FFADC7 50%,
+        #FF99B6 50%,  #FF99B6 75%,
+        #6F4E37 75%,  #6F4E37 100%
+    );
+
 }
 
+/* bloco 1 da faixa4*/
 
+#b1{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:480px;
+   left:75px;
+}	
+
+#porapenas5{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:520px;
+   left:15px;
+}	
+
+#preço19{
+	font-family: Impact;
+	font-size:110px;
+    color: #FFD700;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:445px;
+   left:150px;
+}	
+
+#preço20{
+	font-family: Impact;
+	font-size:40px;
+    color: #FFD700;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:450px;
+   left:260px;
+}	
+
+#cada5{
+	font-family: Impact;
+	font-size:20px;
+    color: white;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:495px;
+   left:270px;
+}	
+
+/* bloco 2 da faixa4*/
+
+#b2{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:480px;
+   left:425px;
+}	
+
+#porapenas6{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:520px;
+   left:360px;
+}	
+
+#preço21{
+	font-family: Impact;
+	font-size:110px;
+    color: #FFD700;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:445px;
+   left:500px;
+}	
+
+#preço22{
+	font-family: Impact;
+	font-size:40px;
+    color: #FFD700;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:450px;
+   left:570px;
+}	
+
+#grama{
+	font-family: Impact;
+	font-size:20px;
+    color: white;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:495px;
+   left:600px;
+}	
+
+/* bloco 3 da faixa4*/
+
+#b3{
+	font-family: arial italic;
+	font-size:15px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:480px;
+   left:760px;
+}	
+
+#porapenas7{
+	font-family: Impact;
+	font-size:25px;
+    color: white;
+	font-style: italic;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 0px ;
+	
+   position:absolute;
+
+   top:520px;
+   left:700px;
+}	
+
+#preço23{
+	font-family: Impact;
+	font-size:110px;
+    color: #FFD700;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:445px;
+   left:835px;
+}	
+
+#preço24{
+	font-family: Impact;
+	font-size:40px;
+    color: #FFD700;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:450px;
+   left:905px;
+}	
+
+#grama2{
+	font-family: Impact;
+	font-size:20px;
+    color: white;
+	width: max-content;
+	
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 3px 3px 3px #444444;
+	
+   position:absolute;
+
+   top:495px;
+   left:935px;
+}	
+
+/* bloco 4 da faixa4*/
+
+#venhaconferir{
+	font-family: arial;
+	font-size:40px;
+    color: #F5F5F5;
+	width: max-content;
+	
+   -webkit-text-stroke: 0px ;
+   text-shadow: 5px 5px 5px #444444;
+	
+   position:absolute;
+
+   top:465px;
+   left:1055px;
+}	
+
+/* Fotos das faixas 1 ao 3*/
 .torta{
     width:118px;
     height:118px;
@@ -595,7 +1320,6 @@ body{
 	border-radius:20px;
 
     position:absolute;
-
     top:310px;
     left:1100px;
 }
